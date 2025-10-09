@@ -1,0 +1,42 @@
+<!-- legacy-ai.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+  <title id="title">Legacy.Ai logo — curvy L with .Ai</title>
+  <desc id="desc">Black background, thick curvy L with .Ai in white placed in the L's lap.</desc>
+
+  <!-- background -->
+  <rect width="100%" height="100%" fill="#000"/>
+
+  <defs>
+    <linearGradient id="goldGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#FFD66B"/>
+      <stop offset="1" stop-color="#F2A83B"/>
+    </linearGradient>
+    <!-- subtle outer glow for depth -->
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Thick curvy 'L' stroke (center-left vertical then sweeping bottom curve to the right) -->
+  <path
+    d="M170 70
+       C170 70 170 240 170 320
+       C170 420 240 460 360 460"
+    fill="none"
+    stroke="url(#goldGrad)"
+    stroke-width="72"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#glow)"
+    />
+
+  <!-- small white .Ai tucked into the L's lap -->
+  <text x="230" y="340" font-family="Segoe UI, Roboto, -apple-system, system-ui, Helvetica, Arial, sans-serif"
+        font-weight="600" font-size="36" fill="#FFFFFF" text-anchor="start" dominant-baseline="middle">
+    .Ai
+  </text>
+</svg>
