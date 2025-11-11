@@ -88,3 +88,7 @@ curl -X POST http://localhost:3000/ai/get-review \
 - `BackEnd/src/controllers/ai.controller.js` — controller.
 - `BackEnd/src/services/ai.service.js` — Gemini integration and system instruction.
 - `FrontEnd/src/App.jsx` — frontend code editor and request logic.
+
+## Connect with me
+- **LinkedIn:** https://www.linkedin.com/in/devadi
+- **GitHub:** https://github.com/ADI-2707
