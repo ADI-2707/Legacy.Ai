@@ -74,3 +74,7 @@ npm start
 ```
 
 Then send requests to `http://localhost:PORT/ai/get-review` (see `BackEnd/package.json` or `server.js` for the configured port — often 3000).
+
+## Connect with me
+- **LinkedIn:** https://www.linkedin.com/in/devadi
+- **GitHub:** https://github.com/ADI-2707
