@@ -2,10 +2,18 @@
 
 Legacy.Ai is a small example project that demonstrates using a backend Express API to call a Gemini generative model for automated code review, with a lightweight React + Vite frontend to submit code and display the review.
 
+<p align='center'>
+<img src="FrontEnd/assets/la1.png" width="600">
+</p>
+
 This repository has two main pieces:
 
 - BackEnd/: Node.js + Express server that wraps the Gemini generative model and exposes an API endpoint.
 - FrontEnd/: React (Vite) app that provides a code editor and displays the model's review.
+
+<p align='center'>
+<img src="FrontEnd/assets/la2.png" width="600">
+</p>
 
 ## Quick architecture
 
